@@ -70,7 +70,7 @@ void shell(void) {
     char *args;
     for (;;) {
         int len = 0;
-        uart_puts("lab6> ");
+        uart_puts("lab7> ");
         for (;;) {
             char c = uart_getc();
             if (c == '\b' || c == 127) {
